@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ultragram - Users</title>
+    <link rel="stylesheet" href="./style_users.css">
+</head>
+<body>
+    <header>
+        <div class="site_icon">
+            <img src="./data/Ultragram.svg" alt="">
+        </div>
+        <div class="user_head">
+            <h1 class="user_nick_head" onclick="location.href='./Your_page.html'">You</h1>
+            <img class="user_icon_head" onclick="location.href='./Your_page.html'" src="./data/user_icon.svg" alt="">
+        </div>
+        <div class="options">
+            <div class="options_img">
+                <img src="./data/points.svg" alt="">
+            </div>
+            <div class="popup">
+                <div class="theme">
+                    <li>Change theme</li>
+                    <input type="checkbox">
+                    <span class="slider round"></span>
+                </div>
+            </div>
+        </div>
+    </header>
+    <section class="find_sort">
+        <div class="find">
+            <input class="search", id="input_search" type="search" placeholder="Search">
+            <button class="a_to_z" id="a_to_z">
+                <img class="btn_a_to_z" src="./data/a_to_z.svg" alt="" onclick="sortAZ()">
+            </button>
+            <button class="z_to_a" id="z_to_a">
+                <img class="btn_z_to_a" src="./data/z_to_a.svg" alt="" onclick="sortZA()">
+            </button>
+        </div>
+    </section>
+    <section class="users_list" id="users_list">
+        <!-- <div class="user">
+            <div class="photo_data">
+                <img class="user_icon" src="./data/user_icon.svg" alt="">
+                <div class="user_data">
+                    <div class="nick">
+                        <h1 onclick="location.href='./User_page.html'" class="txt_nick"></h1>
+                    </div>
+                    <div class="contacts">
+                        <li>example@gmail.com</li>
+                        <li>Company</li>
+                    </div>
+                </div>
+            </div>
+            <div class="user_btn">
+                <button class="go_profile">Go to profile</button>
+            </div> -->
+        </div>
+    </section>
+    <script src="./script_users_page.js"></script>
+    <script src="./script_options.js"></script>
+</body>
+</html>

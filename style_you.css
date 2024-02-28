@@ -1,0 +1,151 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #f7f7f7;
+    font-family: sans-serif;
+}
+
+header {
+    display: flex;
+    justify-content: center;
+    border-bottom: solid 1px #cdcdcd;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-bottom: 24px;
+    padding-right: 845px;
+}
+
+.back {
+    position: absolute;
+    cursor: pointer;
+}
+
+.user_btn {
+    display: flex;
+    flex-direction: row;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.change_profile {
+    width: 310px;
+    height: 38px;
+    font-size: 16px;
+    border: none;
+    background-color: #d9d9d9;
+    color: #1D242B;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.user_btn:hover
+.change_profile{
+    background-color: #b4b4b4;
+}
+
+.settings {
+    position: absolute;
+    display: flex;
+    width: 300px;
+    justify-content: end;
+    padding-top: 9px;
+}
+
+.site_icon {
+    margin-top: 5px;
+    margin-bottom: -5px;
+}
+
+li {
+    list-style-type: none;
+    color: #484848;
+    font-size: 16px;
+    cursor: default;
+}
+
+h1 {
+    color: #484848;
+    font-size: 20px;
+    cursor: default;
+}
+
+.user {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    max-width: 946px;
+    margin-left: auto;
+    margin-right: auto;
+    border-bottom: solid 1px #cdcdcd;
+    margin-bottom: 24px;
+}
+
+.user_data {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    width: 628px;
+}
+
+.user_photo {
+    display: flex;
+    flex-direction: column;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.nick {
+    display: flex;
+    justify-content: center;
+    margin-top: 12px;
+    margin-bottom: 16px;
+}
+
+.contacts {
+    margin-top: 39px;
+    gap: 4px;
+}
+
+.fsp {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 39px;
+    gap: 21px;
+}
+
+.fsp_text {
+    cursor: pointer;
+}
+
+.user_posts {
+    display: flex;
+    flex-direction: column;
+    max-width: 946px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.row {
+    display: flex;
+    flex-direction: row;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 946px;
+    gap: 8px;
+}
+
+.post {
+    background-color: #f0f0f0;
+    border-radius: 5px;
+    margin-bottom: 21px;
+    height: 409px;
+}
+
+.post_text {
+    margin-top: 10px;
+    margin-left: 15px;
+}
